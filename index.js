@@ -9,7 +9,7 @@ const cors = require('cors');
 
 // Declaring Constants
 
-const DB = "mongodb://localhost:27017/schoolProject";
+const DB = "mongodb+srv://snips:snips@cluster0.hscsw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const jwtKey = "yesecretha";
 const AUTHTOKEN = "ultraprotoken";
 app = express();
